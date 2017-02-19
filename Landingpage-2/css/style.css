@@ -1,0 +1,51 @@
+/*
+  FONTS
+  font-family: 'Share', cursive;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+*/
+
+body,html{
+  margin:0; padding:0; box-sizing: border-box;
+}
+
+.header{
+  display: block;
+  background: #58c446;
+  width: 100%;
+  min-height: 60px;
+  max-height: 70px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 30px;
+}
+
+.header .brand{
+  display: block;
+  float: left;
+  padding: 15px 0 0 15px;
+  width: 50%;
+  max-width: 50%;
+}
+
+.header .nav-bar{
+  font-size: 20px;
+  display: block;
+  float: left;
+  height: 40px;
+}
+
+.header .nav-bar li{
+  float: left;
+  text-align: center;
+  padding: 15px 0 0 15px;
+  min-width: 100px;
+  min-height: 40px;
+  background: #3D8730;
+}
+.header .nav-bar li:hover{
+  cursor: pointer;
+  border-radius: 50px;
+}
