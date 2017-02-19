@@ -37,16 +37,27 @@ body,html{
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  font-size: 20px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
 }
 
 .navigation a{
-  text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 6px;
+  min-height: 10px;
+  min-width: 100px;
+  text-decoration: none;
   color: #FFF;
+  background: #51B541;
+  border-radius: 30px;
+  margin: 0 .2em;
+  border: 2px solid #51B541;
 }
 
 .navigation a:hover{
-  background: #51B541;
+  background: #58c446;
+  border: 2px solid #51B541;
 }

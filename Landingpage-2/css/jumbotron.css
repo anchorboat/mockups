@@ -1,0 +1,21 @@
+.jumbotron{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  background: url('../media/bg1.jpg') no-repeat;
+  min-height: 70vh;
+
+  color: #FFF;
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  padding: 3em;
+}
+
+.jumbotron h1{
+  font-size: 50px;
+}
+
+.jumbotron p{
+  width: 500px;
+}
